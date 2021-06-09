@@ -1,7 +1,4 @@
-const html = require("html-template-tag");
-const postBank = require("../postBank");
-
-module.exports = (post) => html`<!DOCTYPE html>
+module.exports = (post) => `<!DOCTYPE html>
   <html>
     <head>
       <title>Wizard News</title>

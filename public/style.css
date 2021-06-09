@@ -39,6 +39,10 @@ header > img {
   vertical-align: bottom;
 }
 
+header > a {
+  color: #fff;
+}
+
 .news-list {
   background-color: #f6f6ef;
   width: 85%;

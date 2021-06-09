@@ -13,7 +13,7 @@ app.use(express.static("public"));
 app.get("/", async (req, res, next) => {
   try {
     const data = await client.query(
-      "SELECT posts.*, users.name FROM posts INNER JOIN users on users.id = posts.userId"
+      "SELECT posts.*, users.name, counting.upvotes FROM posts INNER JOIN users ON users.id = posts.userId LEFT JOIN (SELECT postId, COUNT(*) as upvotes FROM upvotes GROUP BY postId) AS counting ON posts.id = counting.postId\n"
     );
     const posts = data.rows;
     res.send(postList(posts));

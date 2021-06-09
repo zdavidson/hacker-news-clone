@@ -1,1 +1,1 @@
-# hacker-news-clone
+# wizard-news

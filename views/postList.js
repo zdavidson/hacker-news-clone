@@ -5,10 +5,11 @@ module.exports = (posts) => `<!DOCTYPE html>
     <head>
       <title>Wizard News</title>
       <link rel="stylesheet" href="/style.css" />
+      <link rel="icon" href="/logo.png" />
     </head>
     <body>
       <div class="news-list">
-        <header><img src="/logo.png" />Wizard News  | <a href="/posts/add">submit</a></header>
+        <header><img src="/logo.png" /><a href="/posts">Wizard News</a>  | <a href="/posts/add">submit</a></header>
         ${posts
           .map(
             (post) => `

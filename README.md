@@ -6,9 +6,9 @@ A Hacker News-esque site from the wizarding world.
 
 ## Instructions
 
-Download package and type `npx nodemon ./app.js` to start.
+Download package and run using `npx nodemon ./app.js`.
 
 ## Tech
 
-Node.js
-Express
+- Node.js
+- Express

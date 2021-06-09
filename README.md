@@ -12,4 +12,4 @@ Download, unzip, then run using `npx nodemon ./app.js`
 
 - Node.js
 - Express.js
-- PostgresSQL
+- PostgreSQL

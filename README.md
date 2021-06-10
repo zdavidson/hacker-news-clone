@@ -2,7 +2,7 @@
 
 ## Description
 
-A Hacker News-esque site from the Wizarding World.
+A Hacker News-esque site for the Wizarding World.
 
 ## Instructions
 

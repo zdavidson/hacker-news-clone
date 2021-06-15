@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.redirect("/posts");
 });
 
-const PORT = 1337;
+const PORT = 3000;
 
 app.use(function (err, req, res, next) {
   if (res.headersSent) {

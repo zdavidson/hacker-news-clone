@@ -1,4 +1,4 @@
-# Wizard News
+# The Leaky Cauldron News
 
 ## Description
 
